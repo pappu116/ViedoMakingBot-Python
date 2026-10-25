@@ -1,0 +1,17 @@
+{
+  "niche": "tech",
+  "title_patterns": [
+    "Top {number} Tech Trends You Must Know",
+    "How {topic} Is Changing the World",
+    "The Future of {topic} Explained"
+  ],
+  "body_patterns": [
+    "Technology is evolving faster than ever. {topic} is transforming how we live and work. From automation to artificial intelligence, the pace of change is staggering. Staying updated is no longer optional; it is essential for success in the modern world.",
+    "{topic} has become a cornerstone of modern innovation. Understanding it helps you stay ahead. Whether you are a developer, entrepreneur, or curious learner, keeping up with {topic} opens doors to new opportunities."
+  ],
+  "slots": {
+    "topic": ["AI", "cloud computing", "cybersecurity", "blockchain", "robotics", "5G"],
+    "number": ["3", "5", "7"]
+  },
+  "tags": ["tech", "technology", "innovation", "future", "ai"]
+}

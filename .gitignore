@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+profiles/
+output/
+logs/
+data/
+build/
+dist/
+*.wav
+.env

@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "powershell",
+      "Shell(python -m pip install -r requirements.txt)",
+      "Shell(python -c from moviepy.editor import ImageClip, AudioFileClip; print('ok'))",
+      "Shell(python -m playwright install chromium)",
+      "Shell(python main.py generate --count 1 --type shorts --duration 30)",
+      "Shell(python main.py generate --count 1 --type landscape --duration 60)",
+      "Shell(python main.py generate --count 1 --type square --duration 30)",
+      "Shell(python -c  from upload.base import launch, close pw,b,ctx,page = launch('acc1','youtube', headless=True) page.goto('https://studio.youtube.com', wait_until='domcontentloaded') print('YT title:', page.title()) close(pw,b,ctx) pw,b,ctx,page = launch('acc1','facebook', headless=True) page.goto('https://www.facebook.com', wait_until='domcontentloaded') print('FB title:', page.title()) close(pw,b,ctx) print('OK') )",
+      "Shell(python -c from upload.base import launch, close; print('import ok'))",
+      "Shell(python -c  from upload.base import launch, close print('launching yt', flush=True) pw,b,ctx,page = launch('acc1','youtube', headless=True) print('launched', flush=True) page.goto('https://studio.youtube.com', wait_until='domcontentloaded', timeout=30000) print('YT title:', page.title(), flush=True) close(pw,b,ctx) print('closed', flush=True) )",
+      "Shell(cd C:\\Development\\automationYTFB && python -c \"print('hello')\" > C:\\Development\\automationYTFB\\scratch.txt 2>&1; type C:\\Development\\automationYTFB\\scratch.txt)",
+      "Shell(python -m pip install customtkinter pyinstaller)",
+      "Shell(python gui.py)",
+      "Shell(build.bat:*)",
+      "Shell(distYTFBAutomation.exe:*)",
+      "Shell(YTFBAutomation.exe:*)",
+      "Shell(python -m pip install gTTS)",
+      "Shell(python main.py generate --count 1 --type mobile --duration 20 --style whiteboard --voice-engine offline --lang english --gender female --no-music)",
+      "Shell(python -c  from content.generator import generate from media.voice import speak from media.renderer import render import os items = generate(niche='motivational', count=1) c = items[0] audio = speak(c['body'], 'output/_t.wav', lang='english', gender='female', accent='us', engine='offline') vid = 'output/_test.mp4' render(c, audio, vid, video_type='mobile', duration_sec=20, style='whiteboard', music=False) print('done', vid) )",
+      "Shell(python -c  from content.generator import generate from media.voice import speak from media.renderer import render import os items = generate(niche='motivational', count=1) c = items[0] audio = speak(c['body'], 'output/_t.wav', lang='english', gender='female', accent='us', engine='offline') vid = 'output/_test2.mp4' render(c, audio, vid, video_type='mobile', duration_sec=20, style='animation', music=True) print('done', vid) )",
+      "Shell(python -c  from content.generator import generate from media.voice import speak from media.renderer import render import os items = generate(niche='motivational', count=1) c = items[0] audio = speak(c['body'], 'output/_t.wav', lang='english', gender='female', accent='us', engine='offline') vid = 'output/_test2.mp4' try: render(c, audio, vid, video_type='mobile', duration_sec=20, style='animation', music=True) print('done', vid) except Exception as e: import traceback; traceback.print_exc()  2 >& 1)",
+      "Shell(python test_render.py)",
+      "Shell(python -c  from media.voice import speak p = speak('হ্যালো, এটি একটি পরীক্ষা।', 'output/_bn.mp3', lang='bangla', gender='female', accent='bd', engine='online') print('ok', p) )"
+    ],
+    "deny": [],
+    "defaultMode": "default"
+  }
+}

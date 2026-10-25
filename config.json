@@ -1,0 +1,11 @@
+{
+  "niche": "motivational",
+  "video_type": "shorts",
+  "duration_sec": 45,
+  "count": 1,
+  "platforms": ["youtube", "facebook"],
+  "profiles": ["acc1"],
+  "upload_delay_sec": [30, 90],
+  "headless": false,
+  "visibility": "public"
+}

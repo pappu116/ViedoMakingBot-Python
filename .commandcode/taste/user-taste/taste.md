@@ -1,0 +1,11 @@
+# User Taste
+- Prefers communication in Bengali (Bangla); responds to and expects replies in Bengali. Confidence: 0.9
+- Prefers generated videos to use royalty-free/no-copyright background music only. Confidence: 0.9
+- Prefers smooth, natural-sounding audio with pauses and fades in generated videos. Confidence: 0.9
+- Expects highly polished, modern UI/UX ("sundor", "beautiful") and supplies a reference screenshot for the app design to match. Confidence: 0.75
+- Wants the assistant to fully understand the project/requirements first, then build. Confidence: 0.65
+- On bug reports, wants the root cause diagnosed and explained back first ("amake age ayta bolo") before any code is changed. Confidence: 0.75
+- Expects the app to be completed end-to-end and the finished build (.exe) actually verified/tested before handover — asks the assistant to surface any issues found rather than just reporting code changes. Confidence: 0.6
+- Prefers a variety of video styles (anime, cartoon 2D, whiteboard, realistic, animation, puppet, slide, sketch/handwriting), voice options (Bangla/English, male/female, Bangladeshi/Indian accents), and both short and long formats. Confidence: 0.85
+- Their main content goal is animation-style videos (not photo/stock footage) — the chosen video style must genuinely shape the visuals, not just the colour grade. Confidence: 0.6
+- Expects generated-video output to look professionally polished and will push back when it doesn't: large high-contrast subtitles (thick outline/bold), real stock video footage (B-roll) instead of still-image slideshows, visuals that match the script's actual topic, and loud, post-processed narration. Confidence: 0.7

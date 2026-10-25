@@ -1,0 +1,17 @@
+{
+  "niche": "facts",
+  "title_patterns": [
+    "Amazing Facts About {topic} You Did Not Know",
+    "{number} Mind-Blowing {topic} Facts",
+    "Did You Know? {topic} Secrets Revealed"
+  ],
+  "body_patterns": [
+    "The world is full of wonders. {topic} has fascinated humans for centuries. Here are some surprising facts that will change how you see it. First, {topic} is far more complex than it appears. Second, scientists are still discovering new details every year. Third, what we thought we knew was often wrong. Stay curious and keep learning.",
+    "{topic} plays a bigger role in our lives than we realize. From ancient times to modern science, {topic} has shaped civilizations. Understanding these facts helps us make better decisions and appreciate the world around us."
+  ],
+  "slots": {
+    "topic": ["space", "ocean", "human body", "animals", "technology", "history", "nature"],
+    "number": ["5", "7", "10"]
+  },
+  "tags": ["facts", "education", "didyouknow", "science", "learning"]
+}

@@ -1,0 +1,17 @@
+{
+  "niche": "health",
+  "title_patterns": [
+    "{number} Habits for a Healthier Life",
+    "The Secret to {topic} Wellness",
+    "Why {topic} Matters More Than You Think"
+  ],
+  "body_patterns": [
+    "Your health is your greatest wealth. {topic} plays a vital role in your overall well-being. Small daily habits compound into lifelong benefits. Prioritize sleep, nutrition, and movement. Your body will thank you for years to come.",
+    "{topic} affects both body and mind. Ignoring it can lead to serious problems over time. Start small, stay consistent, and make wellness a priority rather than an afterthought."
+  ],
+  "slots": {
+    "topic": ["exercise", "sleep", "hydration", "nutrition", "stress management", "mental health"],
+    "number": ["3", "5", "7"]
+  },
+  "tags": ["health", "wellness", "fitness", "lifestyle", "selfcare"]
+}

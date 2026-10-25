@@ -1,0 +1,1 @@
+"""YTFB Studio user interface."""

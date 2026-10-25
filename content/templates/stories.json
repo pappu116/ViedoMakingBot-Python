@@ -1,0 +1,17 @@
+{
+  "niche": "stories",
+  "title_patterns": [
+    "The Story of {topic}: A Lesson in {lesson}",
+    "How {topic} Changed Everything",
+    "True Story: {topic}"
+  ],
+  "body_patterns": [
+    "Once there was a person who faced {topic} with courage. They did not have resources or support, but they had determination. Day after day they worked silently. People doubted them, but they persisted. Eventually their effort paid off, and they became an example for others. The lesson is simple: {lesson} always wins in the end.",
+    "This is a true story about {topic}. It reminds us that ordinary people can do extraordinary things. The key was not talent but consistency. Never underestimate small beginnings."
+  ],
+  "slots": {
+    "topic": ["a farmer", "a student", "an athlete", "an inventor", "a teacher"],
+    "lesson": ["patience", "hard work", "kindness", "courage", "consistency"]
+  },
+  "tags": ["story", "inspiration", "truestory", "lifelessons"]
+}

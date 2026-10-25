@@ -1,0 +1,19 @@
+{
+  "niche": "motivational",
+  "title_patterns": [
+    "{number} Habits That Will Change Your Life",
+    "Never Give Up - {topic} Motivation",
+    "The Secret to {topic} Success",
+    "Why You Should {topic} Today"
+  ],
+  "body_patterns": [
+    "Most people never reach their potential because they stop too early. {topic} is not about talent, it is about consistency. Wake up every day and choose progress over perfection. Small steps compound into massive results. Stay disciplined, stay focused, and never settle for less than you deserve.",
+    "Success does not come overnight. {topic} demands patience and relentless effort. Every expert was once a beginner who refused to quit. Start where you are, use what you have, and do what you can. Your future self will thank you.",
+    "The difference between ordinary and extraordinary is that little extra. {topic} requires you to push beyond comfort. Embrace failure as feedback, not defeat. Keep moving forward even when no one is watching."
+  ],
+  "slots": {
+    "topic": ["discipline", "consistency", "hard work", "focus", "growth", "patience", "resilience"],
+    "number": ["3", "5", "7", "10"]
+  },
+  "tags": ["motivation", "success", "mindset", "selfimprovement", "daily"]
+}
